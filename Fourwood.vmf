@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "64"
+	"mapversion" "65"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "64"
+	"mapversion" "65"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -7364,24 +7364,6 @@ entity
 }
 entity
 {
-	"id" "3643"
-	"classname" "npc_fastzombie_torso"
-	"angles" "0 0 0"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"spawnflags" "516"
-	"origin" "3.65591 262.764 49"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4500]"
-	}
-}
-entity
-{
 	"id" "3647"
 	"classname" "npc_fastzombie"
 	"angles" "0 0 0"
@@ -7598,6 +7580,24 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 11000]"
+	}
+}
+entity
+{
+	"id" "3742"
+	"classname" "npc_zombie_torso"
+	"angles" "0 0 0"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"spawnflags" "516"
+	"origin" "-36.6051 237.645 49"
+	editor
+	{
+		"color" "0 200 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras
