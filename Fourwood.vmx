@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "66"
+	"mapversion" "68"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "66"
+	"mapversion" "68"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -5711,6 +5711,10 @@ entity
 	"classname" "info_player_start"
 	"angles" "0 90 0"
 	"spawnflags" "1"
+	connections
+	{
+		"" ",,,0,-1"
+	}
 	"origin" "48 0 48"
 	editor
 	{
@@ -7304,7 +7308,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"origin" "55.2507 104.569 53.1541"
+	"origin" "54 13 68"
 	editor
 	{
 		"color" "0 0 200"
@@ -7607,13 +7611,89 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"origin" "66.3134 43.0804 49.0165"
+	"origin" "49 13 49.0165"
 	editor
 	{
 		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "3825"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_foliage/tree_deciduous_02a.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-247 -24 44"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "3829"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_foliage/tree_poplar_01.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "334 51 24"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3837"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_foliage/tree_deciduous_01a-lod.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "915 80 37"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "3845"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_foliage/oak_tree01.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "596 -235.876 46"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
 	}
 }
 cameras
