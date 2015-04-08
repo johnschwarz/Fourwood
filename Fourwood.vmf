@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "65"
+	"mapversion" "66"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "65"
+	"mapversion" "66"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -5710,7 +5710,7 @@ entity
 	"id" "35"
 	"classname" "info_player_start"
 	"angles" "0 90 0"
-	"spawnflags" "0"
+	"spawnflags" "1"
 	"origin" "48 0 48"
 	editor
 	{
@@ -7595,6 +7595,22 @@ entity
 	editor
 	{
 		"color" "0 200 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "3823"
+	"classname" "item_suit"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"origin" "66.3134 43.0804 49.0165"
+	editor
+	{
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
