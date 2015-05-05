@@ -27343,3 +27343,789 @@ Level flags = 0
 Total triangle count: 2541
 Writing f:\hl2ldd\fourwood\Fourwood.bsp
 4 seconds elapsed
+
+
+
+materialPath: F:\SteamLibrary\SteamApps\common\Half-Life 2\hl2\materials
+Loading F:\HL2LDD\Fourwood\Fourwood.vmf
+Could not locate 'GameData' key in f:\steamlibrary\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_dynamic_override (-2309.00 -1267.00 49.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2342.5 2048.0 605.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2342.5 2048.0 -8.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2854.5 2048.0 573.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2048.0 2560.0 573.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2560.0 3072.0 573.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 2560.0 573.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2295.5 2048.0 605.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2295.5 2048.0 -8.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (43602 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 252 texinfos to 148
+Reduced 25 texdatas to 23 (577 bytes to 499)
+Writing F:\HL2LDD\Fourwood\Fourwood.bsp
+1 second elapsed
+
+
+
+4 threads
+reading f:\hl2ldd\fourwood\Fourwood.bsp
+reading f:\hl2ldd\fourwood\Fourwood.prt
+LoadPortals: couldn't read f:\hl2ldd\fourwood\Fourwood.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading f:\hl2ldd\fourwood\Fourwood.bsp
+No vis information, direct lighting only.
+1012 faces
+3 degenerate faces
+368350 square feet [53042480.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+WARNING: light_spot at (-452 312 120) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-666 28 121) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (62 597 162) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (514 347 162) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (874 467 162) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (9 148 162) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (622 1044 162) has outer angle larger than 90 degrees! Clamping to 90...
+22 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0088 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                109/8192         1308/98304    ( 1.3%) 
+brushsides             739/65536        5912/524288   ( 1.1%) 
+planes                 808/65536       16160/1310720  ( 1.2%) 
+vertexes              1673/65536       20076/786432   ( 2.6%) 
+nodes                  776/65536       24832/2097152  ( 1.2%) 
+texinfos               148/12288       10656/884736   ( 1.2%) 
+texdata                 23/2048          736/65536    ( 1.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1012/65536       56672/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              380/65536       21280/3670016  ( 0.6%) 
+leaves                 785/65536       25120/2097152  ( 1.2%) 
+leaffaces             1215/65536        2430/131072   ( 1.9%) 
+leafbrushes            421/65536         842/131072   ( 0.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             6170/512000      24680/2048000  ( 1.2%) 
+edges                 3562/256000      14248/1024000  ( 1.4%) 
+LDR worldlights         22/8192         1936/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             81/32768         810/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1248/65536        2496/131072   ( 1.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1152980/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      482835/393216   (122.8%) VERY FULL!
+LDR ambient table      785/65536        3140/262144   ( 1.2%) 
+HDR ambient table      785/65536        3140/262144   ( 1.2%) 
+LDR leaf ambient      1591/65536       44548/1835008  ( 2.4%) 
+HDR leaf ambient       785/65536       21980/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1290     ( 0.1%) 
+pakfile               [variable]      173998/0        ( 0.0%) 
+physics               [variable]       43602/4194304  ( 1.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2616
+Writing f:\hl2ldd\fourwood\Fourwood.bsp
+4 seconds elapsed
+
+
+
+materialPath: F:\SteamLibrary\SteamApps\common\Half-Life 2\hl2\materials
+Loading F:\HL2LDD\Fourwood\Fourwood.vmf
+Could not locate 'GameData' key in f:\steamlibrary\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_dynamic_override (-2309.00 -1267.00 49.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2342.5 2048.0 605.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2342.5 2048.0 -8.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2854.5 2048.0 573.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2048.0 2560.0 573.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2560.0 3072.0 573.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 2560.0 573.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2295.5 2048.0 605.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2295.5 2048.0 -8.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (46786 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 277 texinfos to 163
+Reduced 25 texdatas to 23 (577 bytes to 499)
+Writing F:\HL2LDD\Fourwood\Fourwood.bsp
+1 second elapsed
+
+
+
+4 threads
+reading f:\hl2ldd\fourwood\Fourwood.bsp
+reading f:\hl2ldd\fourwood\Fourwood.prt
+LoadPortals: couldn't read f:\hl2ldd\fourwood\Fourwood.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading f:\hl2ldd\fourwood\Fourwood.bsp
+No vis information, direct lighting only.
+1064 faces
+3 degenerate faces
+370237 square feet [53314152.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+WARNING: light_spot at (-452 312 120) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-666 28 121) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (62 597 162) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (514 347 162) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (874 467 162) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (9 148 162) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (622 1044 162) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-651 768 162) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-457 933 162) has outer angle larger than 90 degrees! Clamping to 90...
+22 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0091 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                117/8192         1404/98304    ( 1.4%) 
+brushsides             787/65536        6296/524288   ( 1.2%) 
+planes                 862/65536       17240/1310720  ( 1.3%) 
+vertexes              1781/65536       21372/786432   ( 2.7%) 
+nodes                  814/65536       26048/2097152  ( 1.2%) 
+texinfos               163/12288       11736/884736   ( 1.3%) 
+texdata                 23/2048          736/65536    ( 1.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1064/65536       59584/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              408/65536       22848/3670016  ( 0.6%) 
+leaves                 823/65536       26336/2097152  ( 1.3%) 
+leaffaces             1276/65536        2552/131072   ( 1.9%) 
+leafbrushes            436/65536         872/131072   ( 0.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             6545/512000      26180/2048000  ( 1.3%) 
+edges                 3798/256000      15192/1024000  ( 1.5%) 
+LDR worldlights         22/8192         1936/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             88/32768         880/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1359/65536        2718/131072   ( 2.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1122604/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      482754/393216   (122.8%) VERY FULL!
+LDR ambient table      823/65536        3292/262144   ( 1.3%) 
+HDR ambient table      823/65536        3292/262144   ( 1.3%) 
+LDR leaf ambient      1775/65536       49700/1835008  ( 2.7%) 
+HDR leaf ambient       823/65536       23044/1835008  ( 1.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1290     ( 0.1%) 
+pakfile               [variable]      173998/0        ( 0.0%) 
+physics               [variable]       46786/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2775
+Writing f:\hl2ldd\fourwood\Fourwood.bsp
+4 seconds elapsed
+
+
+
+materialPath: F:\SteamLibrary\SteamApps\common\Half-Life 2\hl2\materials
+Loading F:\HL2LDD\Fourwood\Fourwood.vmf
+Could not locate 'GameData' key in f:\steamlibrary\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_dynamic_override (-2309.00 -1267.00 49.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2342.5 2048.0 605.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2342.5 2048.0 -8.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2854.5 2048.0 573.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2048.0 2560.0 573.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2560.0 3072.0 573.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 2560.0 573.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2295.5 2048.0 605.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2295.5 2048.0 -8.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (46786 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 277 texinfos to 163
+Reduced 25 texdatas to 23 (577 bytes to 499)
+Writing F:\HL2LDD\Fourwood\Fourwood.bsp
+1 second elapsed
+
+
+
+4 threads
+reading f:\hl2ldd\fourwood\Fourwood.bsp
+reading f:\hl2ldd\fourwood\Fourwood.prt
+LoadPortals: couldn't read f:\hl2ldd\fourwood\Fourwood.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading f:\hl2ldd\fourwood\Fourwood.bsp
+No vis information, direct lighting only.
+1064 faces
+3 degenerate faces
+370237 square feet [53314152.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+WARNING: light_spot at (-452 312 120) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-666 28 121) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (62 597 162) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (514 347 162) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (874 467 162) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (9 148 162) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (622 1044 162) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-651 768 162) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-457 933 162) has outer angle larger than 90 degrees! Clamping to 90...
+22 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0089 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                117/8192         1404/98304    ( 1.4%) 
+brushsides             787/65536        6296/524288   ( 1.2%) 
+planes                 862/65536       17240/1310720  ( 1.3%) 
+vertexes              1781/65536       21372/786432   ( 2.7%) 
+nodes                  814/65536       26048/2097152  ( 1.2%) 
+texinfos               163/12288       11736/884736   ( 1.3%) 
+texdata                 23/2048          736/65536    ( 1.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1064/65536       59584/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              408/65536       22848/3670016  ( 0.6%) 
+leaves                 823/65536       26336/2097152  ( 1.3%) 
+leaffaces             1276/65536        2552/131072   ( 1.9%) 
+leafbrushes            436/65536         872/131072   ( 0.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             6545/512000      26180/2048000  ( 1.3%) 
+edges                 3798/256000      15192/1024000  ( 1.5%) 
+LDR worldlights         22/8192         1936/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             88/32768         880/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1359/65536        2718/131072   ( 2.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1122604/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      483107/393216   (122.9%) VERY FULL!
+LDR ambient table      823/65536        3292/262144   ( 1.3%) 
+HDR ambient table      823/65536        3292/262144   ( 1.3%) 
+LDR leaf ambient      1775/65536       49700/1835008  ( 2.7%) 
+HDR leaf ambient       823/65536       23044/1835008  ( 1.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1290     ( 0.1%) 
+pakfile               [variable]      173998/0        ( 0.0%) 
+physics               [variable]       46786/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2775
+Writing f:\hl2ldd\fourwood\Fourwood.bsp
+4 seconds elapsed
+
+
+
+materialPath: F:\SteamLibrary\SteamApps\common\Half-Life 2\hl2\materials
+Loading F:\HL2LDD\Fourwood\Fourwood.vmf
+Could not locate 'GameData' key in f:\steamlibrary\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_dynamic_override (-2309.00 -1267.00 49.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2342.5 2048.0 605.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2342.5 2048.0 -8.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2854.5 2048.0 573.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2048.0 2560.0 573.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2560.0 3072.0 573.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 2560.0 573.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2295.5 2048.0 605.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2295.5 2048.0 -8.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (46786 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 277 texinfos to 163
+Reduced 25 texdatas to 23 (577 bytes to 499)
+Writing F:\HL2LDD\Fourwood\Fourwood.bsp
+1 second elapsed
+
+
+
+4 threads
+reading f:\hl2ldd\fourwood\Fourwood.bsp
+reading f:\hl2ldd\fourwood\Fourwood.prt
+LoadPortals: couldn't read f:\hl2ldd\fourwood\Fourwood.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading f:\hl2ldd\fourwood\Fourwood.bsp
+No vis information, direct lighting only.
+1064 faces
+3 degenerate faces
+370237 square feet [53314152.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+WARNING: light_spot at (-452 312 120) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-666 28 121) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (62 597 162) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (514 347 162) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (874 467 162) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (9 148 162) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (622 1044 162) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-651 768 162) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-457 933 162) has outer angle larger than 90 degrees! Clamping to 90...
+22 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0088 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                117/8192         1404/98304    ( 1.4%) 
+brushsides             787/65536        6296/524288   ( 1.2%) 
+planes                 862/65536       17240/1310720  ( 1.3%) 
+vertexes              1781/65536       21372/786432   ( 2.7%) 
+nodes                  814/65536       26048/2097152  ( 1.2%) 
+texinfos               163/12288       11736/884736   ( 1.3%) 
+texdata                 23/2048          736/65536    ( 1.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1064/65536       59584/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              408/65536       22848/3670016  ( 0.6%) 
+leaves                 823/65536       26336/2097152  ( 1.3%) 
+leaffaces             1276/65536        2552/131072   ( 1.9%) 
+leafbrushes            436/65536         872/131072   ( 0.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             6545/512000      26180/2048000  ( 1.3%) 
+edges                 3798/256000      15192/1024000  ( 1.5%) 
+LDR worldlights         22/8192         1936/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             88/32768         880/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1359/65536        2718/131072   ( 2.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1122604/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      483108/393216   (122.9%) VERY FULL!
+LDR ambient table      823/65536        3292/262144   ( 1.3%) 
+HDR ambient table      823/65536        3292/262144   ( 1.3%) 
+LDR leaf ambient      1775/65536       49700/1835008  ( 2.7%) 
+HDR leaf ambient       823/65536       23044/1835008  ( 1.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1290     ( 0.1%) 
+pakfile               [variable]      173998/0        ( 0.0%) 
+physics               [variable]       46786/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2775
+Writing f:\hl2ldd\fourwood\Fourwood.bsp
+4 seconds elapsed
