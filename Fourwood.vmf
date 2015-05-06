@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "267"
+	"mapversion" "268"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "267"
+	"mapversion" "268"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -7371,7 +7371,7 @@ world
 		side
 		{
 			"id" "2094"
-			"plane" "(837 1528 97) (837 1496 97) (843.667 1496 97)"
+			"plane" "(837 1528 108) (837 1496 108) (843.667 1496 108)"
 			"material" "TILE/TILEFLOOR021A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -7382,7 +7382,7 @@ world
 		side
 		{
 			"id" "2093"
-			"plane" "(837 1496 97) (837 1528 97) (837 1528 176)"
+			"plane" "(837 1496 108) (837 1528 108) (837 1528 176)"
 			"material" "PLASTER/PLASTERWALL003D"
 			"uaxis" "[0 1 0 132] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -7393,7 +7393,7 @@ world
 		side
 		{
 			"id" "2092"
-			"plane" "(843.667 1528 97) (843.667 1496 97) (843.667 1496 176)"
+			"plane" "(843.667 1528 108) (843.667 1496 108) (843.667 1496 176)"
 			"material" "PLASTER/PLASTERWALL003D"
 			"uaxis" "[0 1 0 132] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -7404,7 +7404,7 @@ world
 		side
 		{
 			"id" "2091"
-			"plane" "(837 1528 97) (843.667 1528 97) (843.668 1528 176)"
+			"plane" "(837 1528 108) (843.667 1528 108) (843.668 1528 176)"
 			"material" "PLASTER/PLASTERWALL003D"
 			"uaxis" "[1 0 0 -468] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -7415,7 +7415,7 @@ world
 		side
 		{
 			"id" "2090"
-			"plane" "(843.668 1496 97) (837 1496 97) (837 1496 176)"
+			"plane" "(843.668 1496 108) (837 1496 108) (837 1496 176)"
 			"material" "PLASTER/PLASTERWALL003D"
 			"uaxis" "[1 0 0 -116] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -7436,7 +7436,7 @@ world
 		side
 		{
 			"id" "2107"
-			"plane" "(844.002 1496 114) (844.002 1528 114) (1004 1528 114)"
+			"plane" "(844 1496 125) (844 1528 125) (1004 1528 125)"
 			"material" "TILE/TILEFLOOR021A"
 			"uaxis" "[1 0 0 -16] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -7447,7 +7447,7 @@ world
 		side
 		{
 			"id" "2106"
-			"plane" "(844.002 1528 98) (844.002 1496 98) (1004 1496 98)"
+			"plane" "(844 1528 109) (844 1496 109) (1004 1496 109)"
 			"material" "TILE/TILEFLOOR021A"
 			"uaxis" "[1 0 0 -20] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -7458,10 +7458,10 @@ world
 		side
 		{
 			"id" "2105"
-			"plane" "(844.003 1496 98) (844.003 1528 98) (844.003 1528 114)"
+			"plane" "(844 1496 109) (844 1528 109) (844 1528 125)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 8] 0.25"
+			"vaxis" "[0 0 -1 52] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -7469,10 +7469,10 @@ world
 		side
 		{
 			"id" "2104"
-			"plane" "(1004 1528 98) (1004 1496 98) (1004 1496 114)"
+			"plane" "(1004 1528 109) (1004 1496 109) (1004 1496 125)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 8] 0.25"
+			"vaxis" "[0 0 -1 52] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -7480,10 +7480,10 @@ world
 		side
 		{
 			"id" "2103"
-			"plane" "(844 1528 98) (1004 1528 98) (1004 1528 114)"
+			"plane" "(844 1528 109) (1004 1528 109) (1004 1528 125)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -16] 0.25"
-			"vaxis" "[0 0 -1 8] 0.25"
+			"vaxis" "[0 0 -1 52] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -7491,10 +7491,10 @@ world
 		side
 		{
 			"id" "2102"
-			"plane" "(1004 1496 98) (844.004 1496 98) (844 1496 114)"
+			"plane" "(1004 1496 109) (844 1496 109) (844 1496 125)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -16] 0.25"
-			"vaxis" "[0 0 -1 8] 0.25"
+			"vaxis" "[0 0 -1 52] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
